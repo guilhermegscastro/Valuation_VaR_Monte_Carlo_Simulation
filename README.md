@@ -3,8 +3,8 @@
 ## Valuation_Model_FCFF.py:
 
 - This file focuses on the valuation of a company using the Free Cash Flow to the Firm (FCFF) model.
-- It calculates the present value of future free cash flows, taking into account discount rates, growth rates, and terminal values.
-- The model provides an estimate of the intrinsic value of a firm based on its financial performance and assumptions about future growth.
+- It calculates the present value of future free cash flows, taking into account discount rates, growth rates, tax and perpetual growth rate.
+- The model provides an estimate of the intrinsic value of a firm based on its financial performance and assumptions about future growth, using Yahoo Finance as Data Base.
 
  Output: <br/>
 - Revenue: 665035000000.0
@@ -47,13 +47,14 @@
 
 ## Monte_Carlo_Simulation.py:
 
-- This script performs a Monte Carlo simulation to model stock price movements using the Geometric Brownian Motion (GBM) approach.
-- It generates multiple price paths for a given stock, analyzes the expected return and risk, and visualizes the results using plots.
-- It includes parameters such as the initial stock price, expected return, volatility, time period, and number of simulations.
+- This script performs a Monte Carlo simulation to model stock price movements (target prices) using the Geometric Brownian Motion (GBM) approach.
+- It generates multiple price paths for a given stock, based on Revenue Growth rates and Standard Deviation of the last years, and visualizes the results using plots.
+- It includes parameters such as the initial basic valuation parameters used in the previous file (Valuation_Model_FCFF.py), as well as the historical revenue growth per year (for the last 4 years) and the number of simulations (target prices).
 
  Monte Carlo Simulation: <br/>
 <img src="https://imgur.com/yylthZH.png" height="60%" width="80%" alt="Valuation_VaR_MonteCarlo"/>
 <br />
+Output: <br/>
 - min  Target Price = 27
 - mean Target Price = 75
 - max  Target Price = 177
@@ -61,17 +62,19 @@
 ## VaR_Model.py:
 
 - The script calculates Value at Risk (VaR) for a portfolio using both the historical and variance-covariance methods.
-- It quantifies the potential loss in the portfolio's value over a specified time frame, given a certain confidence level.
+- It quantifies the potential loss in the portfolio's value (1000 shares of Walmart Stocks) over a specified time frame (30-days), given a certain confidence level (90%, 95% and 99%).
 - The code also includes risk measures and visualizations to interpret the VaR results effectively.
 
  Value at Risk: <br/>
 <img src="https://imgur.com/NUlEu7S.png" height="60%" width="80%" alt="Valuation_VaR_MonteCarlo"/>
 <br />
+Output: <br/>
 - VaR at 90% confidence level: $-5,279
 - VaR at 95% confidence level: $-6,829
 - VaR at 99% confidence level: $-10,036
 
 ## Dependencies
+- yfinance (Yahoo Finance)
 - Numpy
 - Pandas
 - Matplotlib
