@@ -9,41 +9,41 @@
  Output: <br/>
 - Revenue: 665035000000.0
 - COGS: 501249000000.0
-Gross Profit: 163786000000.0
-SG&A: 135549000000.0
-Depreciation and Amortization: 12442000000.0
-EBIT: 28237000000.0
-Income Tax Expense: 5342000000.0
-NOPAT: 22895000000.0
-Capex: 21897000000.0
-Property and Equipment: 133738000000.0
-Change in Working Capital: 1009000000.0
-FCFF: 12431000000.0
-COGS Percent Revenue: 0.75
-SG&A Percent Revenue: 0.2
-Depreciation Percent Fixed Assets: 0.09
-Capex percent Depreciation: 1.76
-Average Collection Period - Days: 5.0
-Average Inventory Period - Days: 40.0
-Average Payment Period - Days: 64.0
-Year 1 Projected FCFF: 13314688555.05
-Year 2 Projected FCFF: 13770888527.19
-Year 3 Projected FCFF: 14235084845.29
-Year 4 Projected FCFF: 14706630032.04
-Year 5 Projected FCFF: 15184770194.72
-Year 6 Projected FCFF: 15668634469.79
-Year 7 Projected FCFF: 16157223569.76
-Year 8 Projected FCFF: 16649397361.05
-Year 9 Projected FCFF: 17143861396.54
-Year 10 Projected FCFF: 17639152320.51
-projected_fcffs_terminal: 36360244033.73
-Terminal Value: 1012190577155.3
-NPV of Projected FCFF: 644641395114.27
-Cash Equivalents: 8811000000.0
-Debt: 61305000000.0
-Enterprise Value: 644641395114.27
-Equity Value: 592147395114.27
-The target price for WMT is: $73.67
+- Gross Profit: 163786000000.0
+- SG&A: 135549000000.0
+- Depreciation and Amortization: 12442000000.0
+- EBIT: 28237000000.0
+- Income Tax Expense: 5342000000.0
+- NOPAT: 22895000000.0
+- Capex: 21897000000.0
+- Property and Equipment: 133738000000.0
+- Change in Working Capital: 1009000000.0
+- FCFF: 12431000000.0
+- COGS Percent Revenue: 0.75
+- SG&A Percent Revenue: 0.2
+- Depreciation Percent Fixed Assets: 0.09
+- Capex percent Depreciation: 1.76
+- Average Collection Period - Days: 5.0
+- Average Inventory Period - Days: 40.0
+- Average Payment Period - Days: 64.0
+- Year 1 Projected FCFF: 13314688555.05
+- Year 2 Projected FCFF: 13770888527.19
+- Year 3 Projected FCFF: 14235084845.29
+- Year 4 Projected FCFF: 14706630032.04
+- Year 5 Projected FCFF: 15184770194.72
+- Year 6 Projected FCFF: 15668634469.79
+- Year 7 Projected FCFF: 16157223569.76
+- Year 8 Projected FCFF: 16649397361.05
+- Year 9 Projected FCFF: 17143861396.54
+- Year 10 Projected FCFF: 17639152320.51
+- projected_fcffs_terminal: 36360244033.73
+- Terminal Value: 1012190577155.3
+- NPV of Projected FCFF: 644641395114.27
+- Cash Equivalents: 8811000000.0
+- Debt: 61305000000.0
+- Enterprise Value: 644641395114.27
+- Equity Value: 592147395114.27
+## The target price for WMT is: $73.67
 
 ## Monte_Carlo_Simulation.py:
 
