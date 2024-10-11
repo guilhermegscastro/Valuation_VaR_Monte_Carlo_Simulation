@@ -43,7 +43,7 @@
 - Debt: 61305000000.0
 - Enterprise Value: 644641395114.27
 - Equity Value: 592147395114.27
-## The target price for WMT is: $73.67
+- The target price for WMT is: $73.67
 
 ## Monte_Carlo_Simulation.py:
 
