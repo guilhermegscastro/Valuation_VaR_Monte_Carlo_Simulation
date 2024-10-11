@@ -47,9 +47,9 @@
 
 ## Monte_Carlo_Simulation.py:
 
-- This script performs a Monte Carlo simulation to model stock price movements (target prices) using the Geometric Brownian Motion (GBM) approach.
+- This script performs a Monte Carlo simulation to model stock target price movements using the normal distribution approach for future revenue growth.
 - It generates multiple price paths for a given stock, based on Revenue Growth rates and Standard Deviation of the last years, and visualizes the results using plots.
-- It includes parameters such as the initial basic valuation parameters used in the previous file (Valuation_Model_FCFF.py), as well as the historical revenue growth per year (for the last 4 years) and the number of simulations (target prices).
+- It includes parameters such as the initial basic valuation parameters used in the previous file (Valuation_Model_FCFF.py), as well as the historical revenue growth per year (for the last 4 years) and the number of simulations.
 
  Monte Carlo Simulation: <br/>
 <img src="https://imgur.com/yylthZH.png" height="60%" width="80%" alt="Valuation_VaR_MonteCarlo"/>
