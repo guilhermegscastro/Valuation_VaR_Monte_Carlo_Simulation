@@ -6,17 +6,29 @@
 - It calculates the present value of future free cash flows, taking into account discount rates, growth rates, and terminal values.
 - The model provides an estimate of the intrinsic value of a firm based on its financial performance and assumptions about future growth.
 
+ Data Import: <br/>
+<img src="https://imgur.com/oZp9CZA.png" height="70%" width="90%" alt="Valuation_VaR_MonteCarlo"/>
+<br />
+
 ## Monte_Carlo_Simulation.py:
 
 - This script performs a Monte Carlo simulation to model stock price movements using the Geometric Brownian Motion (GBM) approach.
 - It generates multiple price paths for a given stock, analyzes the expected return and risk, and visualizes the results using plots.
 - It includes parameters such as the initial stock price, expected return, volatility, time period, and number of simulations.
 
+ Data Import: <br/>
+<img src="https://imgur.com/yylthZH.png" height="70%" width="90%" alt="Valuation_VaR_MonteCarlo"/>
+<br />
+
 ## VaR_Model.py:
 
 - The script calculates Value at Risk (VaR) for a portfolio using both the historical and variance-covariance methods.
 - It quantifies the potential loss in the portfolio's value over a specified time frame, given a certain confidence level.
 - The code also includes risk measures and visualizations to interpret the VaR results effectively.
+
+ Data Import: <br/>
+<img src="https://imgur.com/oZp9CZA.png" height="70%" width="90%" alt="Valuation_VaR_MonteCarlo"/>
+<br />
 
 ## Dependencies
 - Numpy
