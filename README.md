@@ -25,7 +25,7 @@
 - Scipy (for the VaR Model)
 
 <h2>Purpose and Conclusion </h2>
-The primary purpose of this project study is to provide a comprehensive analysis of Walmart's fair value, using Valuation metrics, Value at Risk and Monte Carlo Simulation. THIS ANALYSIS ALONE CANNOT BE USED BY FINANCIAL ANALYSTS, INVESTORS, AND DECISION-MAKERS TO UNDERSTAND WALMART'S FAIR VALUE AND IDENTIFY POTENTIAL RISKS.
+The primary purpose of this project study is to provide a comprehensive analysis of Walmart's fair value, using Valuation metrics, Value at Risk and Monte Carlo Simulation with Python. THIS ANALYSIS ALONE CANNOT BE USED BY FINANCIAL ANALYSTS, INVESTORS, AND DECISION-MAKERS TO UNDERSTAND WALMART'S FAIR VALUE AND IDENTIFY POTENTIAL RISKS.
 <br />
 
 </p>
