@@ -7,7 +7,7 @@
 - The model provides an estimate of the intrinsic value of a firm based on its financial performance and assumptions about future growth.
 
  Data Import: <br/>
-<img src="https://imgur.com/oZp9CZA.png" height="70%" width="90%" alt="Valuation_VaR_MonteCarlo"/>
+<img src="https://imgur.com/oZp9CZA.png" height="60%" width="80%" alt="Valuation_VaR_MonteCarlo"/>
 <br />
 
 ## Monte_Carlo_Simulation.py:
@@ -17,7 +17,7 @@
 - It includes parameters such as the initial stock price, expected return, volatility, time period, and number of simulations.
 
  Monte Carlo Simulation: <br/>
-<img src="https://imgur.com/yylthZH.png" height="70%" width="90%" alt="Valuation_VaR_MonteCarlo"/>
+<img src="https://imgur.com/yylthZH.png" height="60%" width="80%" alt="Valuation_VaR_MonteCarlo"/>
 <br />
 
 ## VaR_Model.py:
@@ -27,7 +27,7 @@
 - The code also includes risk measures and visualizations to interpret the VaR results effectively.
 
  Value at Risk: <br/>
-<img src="https://imgur.com/NUlEu7S.png" height="70%" width="90%" alt="Valuation_VaR_MonteCarlo"/>
+<img src="https://imgur.com/NUlEu7S.png" height="60%" width="80%" alt="Valuation_VaR_MonteCarlo"/>
 <br />
 
 ## Dependencies
