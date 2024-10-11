@@ -2,6 +2,8 @@ import numpy as np
 import matplotlib.pyplot as plt
 import yfinance as yf
 
+np.random.seed(123)
+
 class VaR:
 
     def __init__(self, ticker, shares, risk_free_rate, volatility, simulations, time_in_a_year):
@@ -34,15 +36,17 @@ class VaR:
 
     def show_VaR(self, returns):
         percentiles = [10,5,1]
-        for i in percentiles:
+        colors = ['red', 'green', 'black']
+        for i, color in zip(percentiles, colors):
             confidence = (100-i)/100
             value = np.percentile(returns, i)
             print("VaR at {:.0%} confidence level: ${:,.0f}".format(confidence, value))
             plt.title('Value at Risk')
             plt.xlabel('Value')
             plt.ylabel('Frequency')
-            plt.axvline(value, color = 'k', linestyle='dashed')
-            plt.savefig('var_chart.png')
+            plt.axvline(value, color = color, linestyle='dashed', label="{:.0%}".format(confidence))
+        plt.legend()
+        plt.savefig('var_chart.png')
 
 
 if __name__ == "__main__":
