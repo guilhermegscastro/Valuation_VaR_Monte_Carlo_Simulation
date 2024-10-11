@@ -7,8 +7,8 @@
 - The model provides an estimate of the intrinsic value of a firm based on its financial performance and assumptions about future growth.
 
  Output: <br/>
-Revenue: 665035000000.0
-COGS: 501249000000.0
+- Revenue: 665035000000.0
+- COGS: 501249000000.0
 Gross Profit: 163786000000.0
 SG&A: 135549000000.0
 Depreciation and Amortization: 12442000000.0
