@@ -19,6 +19,9 @@
  Monte Carlo Simulation: <br/>
 <img src="https://imgur.com/yylthZH.png" height="60%" width="80%" alt="Valuation_VaR_MonteCarlo"/>
 <br />
+- min  Target Price = 27
+- mean Target Price = 75
+- max  Target Price = 177
 
 ## VaR_Model.py:
 
