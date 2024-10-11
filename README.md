@@ -19,9 +19,6 @@
  Monte Carlo Simulation: <br/>
 <img src="https://imgur.com/yylthZH.png" height="60%" width="80%" alt="Valuation_VaR_MonteCarlo"/>
 <br />
-- VaR at 90% confidence level: $-5,279
-- VaR at 95% confidence level: $-6,829
-- VaR at 99% confidence level: $-10,036
 
 ## VaR_Model.py:
 
@@ -32,6 +29,9 @@
  Value at Risk: <br/>
 <img src="https://imgur.com/NUlEu7S.png" height="60%" width="80%" alt="Valuation_VaR_MonteCarlo"/>
 <br />
+- VaR at 90% confidence level: $-5,279
+- VaR at 95% confidence level: $-6,829
+- VaR at 99% confidence level: $-10,036
 
 ## Dependencies
 - Numpy
