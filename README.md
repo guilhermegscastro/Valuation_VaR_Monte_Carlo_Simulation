@@ -16,7 +16,7 @@
 - It generates multiple price paths for a given stock, analyzes the expected return and risk, and visualizes the results using plots.
 - It includes parameters such as the initial stock price, expected return, volatility, time period, and number of simulations.
 
- Data Import: <br/>
+ Monte Carlo Simulation: <br/>
 <img src="https://imgur.com/yylthZH.png" height="70%" width="90%" alt="Valuation_VaR_MonteCarlo"/>
 <br />
 
@@ -26,8 +26,8 @@
 - It quantifies the potential loss in the portfolio's value over a specified time frame, given a certain confidence level.
 - The code also includes risk measures and visualizations to interpret the VaR results effectively.
 
- Data Import: <br/>
-<img src="https://imgur.com/oZp9CZA.png" height="70%" width="90%" alt="Valuation_VaR_MonteCarlo"/>
+ Value at Risk: <br/>
+<img src="https://imgur.com/NUlEu7S.png" height="70%" width="90%" alt="Valuation_VaR_MonteCarlo"/>
 <br />
 
 ## Dependencies
