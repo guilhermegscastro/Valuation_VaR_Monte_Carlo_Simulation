@@ -7,9 +7,8 @@ np.random.seed(123)
 
 class Monte_Carlo_Simulation:
 
-    def __init__(self, ticker, revenue_growth, discount_rate, perpetual_growth_rate, tax):
+    def __init__(self, ticker, discount_rate, perpetual_growth_rate, tax):
         self.ticker = ticker
-        self.revenue_growth = revenue_growth
         self.discount_rate = discount_rate    
         self.perpetual_growth_rate = perpetual_growth_rate
         self.tax = tax
@@ -170,7 +169,7 @@ if __name__ == "__main__":
     perpetual_growth_rate = 0.03
     tax = 0.25
 
-    model = Monte_Carlo_Simulation(ticker, 0, discount_rate, perpetual_growth_rate, tax)
+    model = Monte_Carlo_Simulation(ticker, discount_rate, perpetual_growth_rate, tax)
 
     # Run the simulation to get multiple revenue growth values
     revenue_growth_values = model.run_simulation()
