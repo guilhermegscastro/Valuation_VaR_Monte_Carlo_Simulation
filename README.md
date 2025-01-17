@@ -6,6 +6,8 @@
 - It calculates the present value of future free cash flows, taking into account discount rates, growth rates, tax and perpetual growth rate.
 - The model provides an estimate of the intrinsic value of a firm based on its financial performance and assumptions about future growth, using Yahoo Finance as Data Base.
 
+![Price Chart](image/price_chart.png "Monte Carlo Simulation")
+
  Output: <br/>
 - Revenue: 665035000000.0
 - COGS: 501249000000.0
