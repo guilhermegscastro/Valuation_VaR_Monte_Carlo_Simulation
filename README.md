@@ -54,7 +54,7 @@
 - It includes parameters such as the initial basic valuation parameters used in the previous file (Valuation_Model_FCFF.py), as well as the historical revenue growth per year (for the last 4 years) and the number of simulations.
 
  Monte Carlo Simulation: <br/>
-<img src="https://imgur.com/yylthZH.png" height="60%" width="80%" alt="Valuation_VaR_MonteCarlo"/>
+![Monte Carlo Simulation](image/monte_carlo_chart.png "Monte Carlo Simulation")
 <br />
 Output: <br/>
 - min  Target Price = 27
@@ -68,7 +68,7 @@ Output: <br/>
 - The code also includes risk measures and visualizations to interpret the VaR results effectively.
 
  Value at Risk: <br/>
-<img src="https://imgur.com/NUlEu7S.png" height="60%" width="80%" alt="Valuation_VaR_MonteCarlo"/>
+![VaR Chart](image/var_chart.png "Monte Carlo Simulation")
 <br />
 Output: <br/>
 - VaR at 90% confidence level: $-5,279
